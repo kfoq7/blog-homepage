@@ -12,6 +12,7 @@
 	"author": "kfoq7 (Fabrizio)",
 	"license": "MIT",
 	"dependencies": {
+		"@chakra-ui/icons": "^2.0.1",
 		"@chakra-ui/react": "^2.1.2",
 		"@chakra-ui/utils": "^2.0.0",
 		"@emotion/react": "^11",
