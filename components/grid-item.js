@@ -2,9 +2,7 @@ import NextLink from 'next/link'
 import { Box, Image, LinkBox, LinkOverlay, Text } from '@chakra-ui/react'
 
 export const WorkGridItem = ({ children, id, title, thumbnail }) => (
-  // console.log(thumbnail)
   <Box w="100%" textAlign="center">
-    {console.log(thumbnail)}
     <NextLink href={`/works/${id}`} passHref scroll={false}>
       <LinkBox>
         <Image
